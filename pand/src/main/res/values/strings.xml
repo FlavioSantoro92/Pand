@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">PAnd</string>
+    <string name="string_not_null">The value can\'t be null.</string>
+    <string name="string_min_length">The value must be at least %d characters long</string>
+    <string name="string_max_length">The value must be at most %d characters long</string>
+    <string name="integer_min_value">Number can\'t be lower than</string>
+    <string name="integer_max_value">Number can\'t be greater than</string>
+    <string name="integer_invalid_value">Number not valid</string>
+    <string name="email_not_valid">Invalid email address</string>
+    <string name="error">Error</string>
+    <string name="ok">ok</string>
+    <string name="remove_exam">Remove exam</string>
+
+    <string name="err_create_manager">Cannot create manager object</string>
+    <string name="err_db_name">Bad database name</string>
+    <string name="err_no_db_set">Database not set ! Please create database first.</string>
+    <string name="err_no_db">Cannot get database</string>
+    <string name="err_db_write">Cannot write document to database</string>
+    <string name="err_db_update">Cannot update document</string>
+    <string name="err_db_delete">Cannot delete document</string>
+
+    <string name="err_write_attach">Cannot save attachment</string>
+    <string name="err_read_attach">Cannot read attachment</string>
+    <string name="err_delete_attach">Cannot delete attachment</string>
+</resources>

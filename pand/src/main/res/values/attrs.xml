@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PandView">
+        <attr name="linkToBean" format="string"/>
+        <attr name="observeBean" format="reference|string" />
+        <attr name="itemProperty" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="PandListView" parent="PandView">
+        <attr name="observeBean" />
+        <attr name="adapter" type="android.widget.BaseAdapter" />
+    </declare-styleable>
+
+    <declare-styleable name="PandTextView" parent="PandView">
+        <attr name="observeBean" />
+        <attr name="formatText" format="reference|string" />
+        <attr name="itemProperty" />
+    </declare-styleable>
+
+    <declare-styleable name="PandEditText" parent="PandView">
+        <attr name="linkToBean" />
+        <attr name="observeBean" />
+    </declare-styleable>
+
+    <declare-styleable name="PandCheckBox" parent="PandView">
+        <attr name="linkToBean" />
+        <attr name="observeBean" />
+    </declare-styleable>
+
+    <declare-styleable name="PandRadioGroup" parent="PandView">
+        <attr name="linkToBean" />
+        <attr name="observeBean" />
+    </declare-styleable>
+
+    <declare-styleable name="PandSwitch" parent="PandView">
+        <attr name="linkToBean" />
+        <attr name="observeBean" />
+    </declare-styleable>
+
+    <declare-styleable name="PandRadioButton">
+        <attr name="value" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="PandProgressBar" parent="PandView">
+        <attr name="observeBean" />
+    </declare-styleable>
+
+    <declare-styleable name="PandDatePicker" parent="PandView">
+        <attr name="linkToBean" />
+        <attr name="observeBean" />
+    </declare-styleable>
+
+    <declare-styleable name="PandForm">
+        <attr name="buttonCommit" format="integer" />
+        <attr name="buttonRollback" format="integer" />
+        <attr name="shotErrorDialog" format="boolean" />
+        <attr name="validAction" />
+    </declare-styleable>
+</resources>
